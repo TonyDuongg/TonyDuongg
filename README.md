@@ -1,16 +1,52 @@
-## Hi there 👋
+# [ STATUS MENU ]
 
-<!--
-**TonyDuongg/TonyDuongg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```text
+======================================================================
+|                                                                    |
+|  [ CHARACTER INFO ]                                                |
+|                                                                    |
+|  Name  : [Nguyễn Hải Dương]        Class: Software Developer         |
+|  Level : [22]              Title: Code Weaver                |
+|  Guild : [FPT University]   Base : [Ho Chi Minh City]            |
+|                                                                    |
+======================================================================
+```
 
-Here are some ideas to get you started:
+## [ SKILLS & ATTRIBUTES ]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Stat                   | Focus Area             | Mastery Level | Progress           |
+| :--------------------- | :--------------------- | :-----------: | :----------------- |
+| **STR** (Strength)     | Backend Development    |    Lvl. 15    | `[██████░░░░]` 60% |
+| **AGI** (Agility)      | Frontend Development   |    Lvl. 15    | `[██████░░░░]` 60% |
+| **INT** (Intelligence) | System Architecture    |    Lvl. 15    | `[██████░░░░]` 60% |
+| **DEX** (Dexterity)    | DevOps & Tooling       |    Lvl. 15    | `[██████░░░░]` 60% |
+| **LUK** (Luck)         | Debugging without logs |    Lvl. 10    | `[██░░░░░░░░]` 60% |
+
+## [ INVENTORY : TECH STACK ]
+
+### > Weapons (Programming Languages)
+
+- JavaScript / TypeScript
+- C# / Java
+- SQL
+
+### > Armor (Frameworks & Libraries)
+
+- React / Next.js
+- Node.js / Express
+- .NET Core
+- Tailwind CSS
+
+### > Artifacts (Tools & Databases)
+
+- Git & GitHub
+- Docker
+- MySQL / PostgreSQL / SQL Server
+- Postman / Swagger
+
+## [ QUEST LOG ]
+
+- [x] **Main Quest:** Complete basic programming training.
+- [ ] **Main Quest:** Build a scalable full-stack application.
+- [ ] **Side Quest:** Contribute to an Open Source repository.
+- [ ] **Daily Quest:** Drink coffee, write code, fix bugs.
