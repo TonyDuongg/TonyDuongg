@@ -61,6 +61,6 @@
 
 ## [ COMMUNICATIONS NETWORK ]
 
-- **LinkedIn**: [linkedin.com/in/your-profile](https://www.linkedin.com/in/tonyduongg/?isSelfProfile=true)
-- **Facebook**: [facebook.com/your-profile](https://www.facebook.com/haiduong205/)
-- **Email**: [your.email@example.com](mailto:nguyenhaiduong052005@gmail.com)
+- **LinkedIn**: [www.linkedin.com/in/tonyduongg](https://www.linkedin.com/in/tonyduongg/?isSelfProfile=true)
+- **Facebook**: [facebook.com/haiduong205](https://www.facebook.com/haiduong205/)
+- **Email**: [nguyenhaiduong052005@gmail.com](mailto:nguyenhaiduong052005@gmail.com)
