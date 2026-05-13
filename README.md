@@ -50,3 +50,17 @@
 - [ ] **Main Quest:** Build a scalable full-stack application.
 - [ ] **Side Quest:** Contribute to an Open Source repository.
 - [ ] **Daily Quest:** Drink coffee, write code, fix bugs.
+
+## [ COMPLETED QUESTS : PROJECTS ]
+
+| Project Name        | Description                             | Role / Class | Tech Stack            | Repository     |
+| :------------------ | :-------------------------------------- | :----------- | :-------------------- | :------------- |
+| **[Tên Project 1]** | [Mô tả ngắn gọn về chức năng của dự án] | Fullstack    | React.js, Node.js     | [View Code](#) |
+| **[Tên Project 2]** | [Mô tả ngắn gọn về chức năng của dự án] | Backend      | .NET Core, SQL Server | [View Code](#) |
+| **[Tên Project 3]** | [Mô tả ngắn gọn về chức năng của dự án] | Frontend     | HTML, CSS, JS         | [View Code](#) |
+
+## [ COMMUNICATIONS NETWORK ]
+
+- **LinkedIn**: [linkedin.com/in/your-profile](https://www.linkedin.com/in/tonyduongg/?isSelfProfile=true)
+- **Facebook**: [facebook.com/your-profile](https://www.facebook.com/haiduong205/)
+- **Email**: [your.email@example.com](mailto:nguyenhaiduong052005@gmail.com)
