@@ -172,9 +172,9 @@ focus:
 
   <br/>
 
-  <!-- Top Languages Compact Card -->
+  <!-- Top Languages Card (Tự động cập nhật cả Public & Private Repos) -->
   <a href="https://github.com/TonyDuongg">
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=TonyDuongg&layout=compact&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&border_radius=8&langs_count=8" alt="Top Languages" width="430" />
+    <img src="https://raw.githubusercontent.com/TonyDuongg/TonyDuongg/output/dist/top-langs.svg" alt="Top Languages" width="390" />
   </a>
 
 </div>
