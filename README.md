@@ -174,7 +174,7 @@ focus:
 
   <!-- Top Languages Card (Tự động cập nhật cả Public & Private Repos) -->
   <a href="https://github.com/TonyDuongg">
-    <img src="https://raw.githubusercontent.com/TonyDuongg/TonyDuongg/output/dist/top-langs.svg" alt="Top Languages" width="390" />
+    <img src="https://raw.githubusercontent.com/TonyDuongg/TonyDuongg/output/top-langs.svg" alt="Top Languages" width="380" />
   </a>
 
 </div>
@@ -184,9 +184,9 @@ focus:
 <!-- Snake Contribution Grid Animation -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TonyDuongg/TonyDuongg/output/dist/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TonyDuongg/TonyDuongg/output/dist/github-contribution-grid-snake.svg" />
-    <img alt="Snake Contribution Animation" src="https://raw.githubusercontent.com/TonyDuongg/TonyDuongg/output/dist/github-contribution-grid-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TonyDuongg/TonyDuongg/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TonyDuongg/TonyDuongg/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake Contribution Animation" src="https://raw.githubusercontent.com/TonyDuongg/TonyDuongg/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </div>
 
