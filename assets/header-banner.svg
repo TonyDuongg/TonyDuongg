@@ -8,13 +8,13 @@
     </linearGradient>
 
     <!-- Subtle Radial Accent Glow -->
-    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 70) rotate(90) scale(180 220)">
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700 80) rotate(90) scale(180 220)">
       <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.12" />
       <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
     </radialGradient>
 
     <!-- Code Block Gradient -->
-    <linearGradient id="codeBg" x1="0" y1="0" x2="280" y2="150" gradientUnits="userSpaceOnUse">
+    <linearGradient id="codeBg" x1="0" y1="0" x2="275" y2="166" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#161b22" />
       <stop offset="100%" stop-color="#10141a" />
     </linearGradient>
@@ -22,18 +22,18 @@
 
   <style>
     .banner-title {
-      font: 700 32px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font: 700 30px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
       fill: #f0f6fc;
       letter-spacing: -0.5px;
     }
     .banner-subtitle {
-      font: 500 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font: 600 11.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       fill: #58a6ff;
-      letter-spacing: 1.5px;
+      letter-spacing: 1.2px;
       text-transform: uppercase;
     }
     .banner-quote {
-      font: italic 400 13.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font: italic 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       fill: #8b949e;
     }
     .chip-text {
@@ -49,71 +49,79 @@
   <rect width="848" height="228" x="1" y="1" rx="12" fill="url(#bgGradient)" stroke="#30363d" stroke-width="1" />
   <rect width="848" height="228" x="1" y="1" rx="12" fill="url(#cyanGlow)" />
 
-  <!-- Left Content Container -->
-  <g transform="translate(42, 36)">
+  <!-- Left Content Container (Mathematically Centered Vertically) -->
+  <g transform="translate(42, 42)">
     
-    <!-- Role Badge -->
+    <!-- Role Badge (Fitted width to avoid empty space) -->
     <g transform="translate(0, 0)">
-      <rect width="250" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <rect width="170" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="1" />
       <circle cx="12" cy="11" r="3.5" fill="#3fb950" />
-      <text x="24" y="15" class="banner-subtitle">Software Developer</text>
+      <text x="24" y="11" dominant-baseline="central" class="banner-subtitle">Software Developer</text>
     </g>
 
     <!-- Name Heading -->
-    <text x="0" y="60" class="banner-title">Nguyen Hai Duong <tspan font-weight="400" fill="#8b949e" font-size="22px">(Tony Duong)</tspan></text>
+    <text x="0" y="54" class="banner-title">Nguyen Hai Duong <tspan font-weight="400" fill="#8b949e" font-size="20px">(Tony Duong)</tspan></text>
 
     <!-- Quote -->
-    <text x="0" y="90" class="banner-quote">"Ước mơ vốn chỉ mãi là ước mơ nếu bạn không thực hiện nó."</text>
+    <text x="0" y="84" class="banner-quote">"Ước mơ vốn chỉ mãi là ước mơ nếu bạn không thực hiện nó."</text>
 
-    <!-- Chips Row -->
-    <g transform="translate(0, 118)">
+    <!-- Chips Row (Aligned icons and vertically centered text) -->
+    <g transform="translate(0, 114)">
+      
       <!-- Location Chip -->
       <g transform="translate(0, 0)">
-        <rect width="180" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
-        <path d="M12 18s-5-4.5-5-8a5 5 0 0 1 10 0c0 3.5-5 8-5 8z" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
-        <circle cx="12" cy="10" r="1.5" fill="#58a6ff"/>
-        <text x="24" y="17" class="chip-text">Ho Chi Minh City, VN</text>
+        <rect width="162" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+        <g transform="translate(13, 13)">
+          <path d="M0 6s-4-3.5-4-6.5a4 4 0 0 1 8 0c0 3-4 6.5-4 6.5z" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+          <circle cx="0" cy="-0.5" r="1.5" fill="#58a6ff"/>
+        </g>
+        <text x="26" y="13" dominant-baseline="central" class="chip-text">Ho Chi Minh City, VN</text>
       </g>
 
       <!-- University Chip -->
-      <g transform="translate(190, 0)">
-        <rect width="135" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
-        <path d="M12 6L4 10l8 4 8-4-8-4z" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
-        <path d="M7 11.5v3.5c0 1.5 2.5 3 5 3s5-1.5 5-3v-3.5" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
-        <text x="24" y="17" class="chip-text">FPT University</text>
+      <g transform="translate(172, 0)">
+        <rect width="128" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+        <g transform="translate(13, 13)">
+          <path d="M0 -4.5l-6.5 3.5 6.5 3.5 6.5-3.5-6.5-3.5z" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+          <path d="M-4 0.5v3c0 1.2 2 2.5 4 2.5s4-1.3 4-2.5v-3" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+        </g>
+        <text x="26" y="13" dominant-baseline="central" class="chip-text">FPT University</text>
       </g>
 
       <!-- Focus Chip -->
-      <g transform="translate(335, 0)">
-        <rect width="145" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
-        <path d="M8 9l-3 3 3 3m5-6l3 3-3 3" stroke="#58a6ff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="25" y="17" class="chip-text">Backend &amp; Cloud</text>
+      <g transform="translate(310, 0)">
+        <rect width="138" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+        <g transform="translate(14, 13)">
+          <path d="M-3 -3.5l-3.5 3.5 3.5 3.5m6-7l3.5 3.5-3.5 3.5" stroke="#58a6ff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text x="27" y="13" dominant-baseline="central" class="chip-text">Backend &amp; Cloud</text>
       </g>
+
     </g>
 
   </g>
 
-  <!-- Right Code Window (Minimalist Slate) -->
-  <g transform="translate(535, 34)">
-    <rect width="275" height="162" rx="10" fill="url(#codeBg)" stroke="#30363d" stroke-width="1" />
+  <!-- Right Code Window (Minimalist Slate, Centered Vertically) -->
+  <g transform="translate(532, 32)">
+    <rect width="276" height="166" rx="10" fill="url(#codeBg)" stroke="#30363d" stroke-width="1" />
     
     <!-- Window Header & Controls -->
-    <circle cx="16" cy="16" r="4.5" fill="#f85149" opacity="0.8" />
-    <circle cx="29" cy="16" r="4.5" fill="#e3b341" opacity="0.8" />
-    <circle cx="42" cy="16" r="4.5" fill="#3fb950" opacity="0.8" />
-    <text x="137" y="19" text-anchor="middle" font-size="10px" fill="#8b949e" font-family="monospace">profile.json</text>
-    <line x1="0" y1="30" x2="275" y2="30" stroke="#30363d" stroke-width="1" />
+    <circle cx="16" cy="14" r="4.5" fill="#f85149" opacity="0.8" />
+    <circle cx="28" cy="14" r="4.5" fill="#e3b341" opacity="0.8" />
+    <circle cx="40" cy="14" r="4.5" fill="#3fb950" opacity="0.8" />
+    <text x="138" y="14" dominant-baseline="central" text-anchor="middle" font-size="10px" fill="#8b949e" font-family="monospace">profile.json</text>
+    <line x1="0" y1="28" x2="276" y2="28" stroke="#30363d" stroke-width="1" />
 
     <!-- Code Content -->
-    <g transform="translate(16, 48)">
+    <g transform="translate(16, 44)">
       <text x="0" y="12" class="code-text" fill="#ff7b72">const <tspan fill="#d2a8ff">developer</tspan> = {</text>
       <text x="14" y="28" class="code-text" fill="#79c0ff">name: <tspan fill="#a5d6ff">"Tony Duong"</tspan>,</text>
       <text x="14" y="44" class="code-text" fill="#79c0ff">primaryStack: [</text>
       <text x="28" y="60" class="code-text" fill="#a5d6ff">"Java", "Spring Boot",</text>
       <text x="28" y="74" class="code-text" fill="#a5d6ff">"TypeScript", "Node.js"</text>
       <text x="14" y="90" class="code-text" fill="#79c0ff">],</text>
-      <text x="14" y="104" class="code-text" fill="#79c0ff">status: <tspan fill="#7ee787">"Ready to build"</tspan></text>
-      <text x="0" y="118" class="code-text" fill="#ff7b72">};</text>
+      <text x="14" y="106" class="code-text" fill="#79c0ff">status: <tspan fill="#7ee787">"Ready to build"</tspan></text>
+      <text x="0" y="122" class="code-text" fill="#ff7b72">};</text>
     </g>
   </g>
 </svg>
