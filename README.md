@@ -147,14 +147,6 @@ focus:
 | **🎨 RugMaxing Studio** | Hệ thống Telegram bot + web Studio + trang Admin để tạo và chỉnh sửa mẫu thảm bằng AI: đăng nhập Telegram (HMAC), gói quota có ledger và idempotency, thanh toán SePay qua webhook, upload Cloudflare R2 bằng presigned URL, xử lý ảnh qua n8n. | `Node.js` `Express` `Telegraf` `React` `Vite` `SQLite` `Cloudflare R2` `n8n` | `🔒 Private` |
 | **👥 PRJ301 User Management** | Ứng dụng web Java theo mô hình MVC: đăng nhập, phân quyền admin/user, CRUD và tìm kiếm người dùng, giỏ hàng mua sắm; truy cập dữ liệu qua tầng DAO/DTO. | `Java` `Servlet/JSP` `SQL Server` `Tomcat` | `🔒 Private` |
 
-#### 🎮 Games
-
-| Dự án | Mô tả kiến trúc | Công nghệ chính | Liên kết |
-| :--- | :--- | :--- | :---: |
-| **🏘️ Phố Mình – Thị trấn Bến Gió** | Game xã hội 2D online nhiều người chơi trên trình duyệt (PC & điện thoại), bối cảnh Việt Nam: bắt đầu tay trắng, làm việc vặt để tăng 6 chỉ số rồi mở dần các nghề. Server realtime, tự sao lưu và tự khôi phục dữ liệu. | `TypeScript` `React` `Phaser` `Colyseus` `PostgreSQL` `Railway` | `🔒 Private` |
-| **📱 LÊN XU HƯỚNG! (TikToker Simulator)** | Game tycoon màn hình dọc (PWA) mô phỏng hành trình làm TikToker: bắt trend, quay dựng bằng mini-game, thuật toán For You Page, xử lý drama. Mọi công thức và số ngẫu nhiên chạy phía server để chống gian lận. | `Java 21` `Spring Boot 4` `Vue 3` `Pinia` `TypeScript` `PostgreSQL` `Flyway` | `🔒 Private` |
-| **🧋 Tiệm Trà Nhỏ** | Web game mô phỏng quản lý quán trà sữa, cài được như app (PWA, chơi offline): pha chế theo yêu cầu khách, quản lý kho, bán hàng đa kênh, nâng cấp tiệm, cloud save bằng mã 8 số. | `JavaScript` `HTML/CSS` `PWA` `Service Worker` | `🔒 Private` |
-
 #### 🌐 Web
 
 | Dự án | Mô tả kiến trúc | Công nghệ chính | Liên kết |
