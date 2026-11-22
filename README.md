@@ -111,16 +111,23 @@ focus:
 
 ### 🚀 Featured Projects
 
-<!-- Pinned Repository Cards -->
+<!-- Pinned Repository Cards (public repos) -->
 <div align="center">
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
+      <td valign="top" align="center">
+        <a href="https://github.com/TonyDuongg/agent-redact">
+          <img src="https://github-stats-extended.vercel.app/api/pin/?username=TonyDuongg&repo=agent-redact&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&border_radius=8" alt="agent-redact Repo Card" width="395" />
+        </a>
+      </td>
       <td valign="top" align="center">
         <a href="https://github.com/TonyDuongg/Portfolio">
           <img src="https://github-stats-extended.vercel.app/api/pin/?username=TonyDuongg&repo=Portfolio&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&border_radius=8" alt="Portfolio Repo Card" width="395" />
         </a>
       </td>
-      <td valign="top" align="center">
+    </tr>
+    <tr>
+      <td valign="top" align="center" colspan="2">
         <a href="https://github.com/TonyDuongg/Mien_Nam_30_4">
           <img src="https://github-stats-extended.vercel.app/api/pin/?username=TonyDuongg&repo=Mien_Nam_30_4&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&border_radius=8" alt="Mien Nam Repo Card" width="395" />
         </a>
@@ -131,12 +138,31 @@ focus:
 
 <br/>
 
+#### ⚙️ Backend, Fullstack & Tooling
+
+| Dự án | Mô tả kiến trúc | Công nghệ chính | Liên kết |
+| :--- | :--- | :--- | :---: |
+| **💰 AppFinance** | Hệ thống tài chính & đối soát đa shop cho nhà bán hàng Shopee và TikTok Shop: kết nối OAuth (token mã hóa AES-256-GCM), đồng bộ đơn hàng tăng dần mỗi 15 phút, đối soát payout, báo cáo lãi lỗ theo shop, xuất Excel/CSV và trợ lý AI hỏi đáp trên số liệu. Đang chạy production từ 07/2026. | `Java 21` `Spring Boot 4` `React 19` `PostgreSQL` `Docker` `Railway` `GitHub Actions` | `🔒 Private` |
+| **🛡️ agent-redact** | Thư viện & CLI che giấu secret/PII ngay trên máy cho AI agent và LLM: mask có thể khôi phục (vault), unmask khi streaming với Anthropic/OpenAI SDK, MCP server, proxy không cần sửa code, Express middleware và GitHub Action. Core engine không phụ thuộc thư viện ngoài, thời gian quét tuyến tính. | `TypeScript` `Node.js` `Python` `MCP` `Vitest` | [Xem mã nguồn](https://github.com/TonyDuongg/agent-redact) |
+| **🎨 RugMaxing Studio** | Hệ thống Telegram bot + web Studio + trang Admin để tạo và chỉnh sửa mẫu thảm bằng AI: đăng nhập Telegram (HMAC), gói quota có ledger và idempotency, thanh toán SePay qua webhook, upload Cloudflare R2 bằng presigned URL, xử lý ảnh qua n8n. | `Node.js` `Express` `Telegraf` `React` `Vite` `SQLite` `Cloudflare R2` `n8n` | `🔒 Private` |
+| **👥 PRJ301 User Management** | Ứng dụng web Java theo mô hình MVC: đăng nhập, phân quyền admin/user, CRUD và tìm kiếm người dùng, giỏ hàng mua sắm; truy cập dữ liệu qua tầng DAO/DTO. | `Java` `Servlet/JSP` `SQL Server` `Tomcat` | `🔒 Private` |
+
+#### 🎮 Games
+
+| Dự án | Mô tả kiến trúc | Công nghệ chính | Liên kết |
+| :--- | :--- | :--- | :---: |
+| **🏘️ Phố Mình – Thị trấn Bến Gió** | Game xã hội 2D online nhiều người chơi trên trình duyệt (PC & điện thoại), bối cảnh Việt Nam: bắt đầu tay trắng, làm việc vặt để tăng 6 chỉ số rồi mở dần các nghề. Server realtime, tự sao lưu và tự khôi phục dữ liệu. | `TypeScript` `React` `Phaser` `Colyseus` `PostgreSQL` `Railway` | `🔒 Private` |
+| **📱 LÊN XU HƯỚNG! (TikToker Simulator)** | Game tycoon màn hình dọc (PWA) mô phỏng hành trình làm TikToker: bắt trend, quay dựng bằng mini-game, thuật toán For You Page, xử lý drama. Mọi công thức và số ngẫu nhiên chạy phía server để chống gian lận. | `Java 21` `Spring Boot 4` `Vue 3` `Pinia` `TypeScript` `PostgreSQL` `Flyway` | `🔒 Private` |
+| **🧋 Tiệm Trà Nhỏ** | Web game mô phỏng quản lý quán trà sữa, cài được như app (PWA, chơi offline): pha chế theo yêu cầu khách, quản lý kho, bán hàng đa kênh, nâng cấp tiệm, cloud save bằng mã 8 số. | `JavaScript` `HTML/CSS` `PWA` `Service Worker` | `🔒 Private` |
+
+#### 🌐 Web
+
 | Dự án | Mô tả kiến trúc | Công nghệ chính | Liên kết |
 | :--- | :--- | :--- | :---: |
 | **🌐 Personal Portfolio Website** | Trang portfolio cá nhân giới thiệu kỹ năng, dự án và kinh nghiệm phát triển phần mềm với giao diện tối ưu trải nghiệm người dùng. | `HTML/CSS` `JavaScript` `Responsive` | [Xem mã nguồn](https://github.com/TonyDuongg/Portfolio) • [Trang trực tuyến](https://tonyduongg.github.io/Portfolio/) |
 | **🏛️ Miền Nam 30/4 Interactive Web** | Ứng dụng web tương tác tái hiện thông tin lịch sử và kỷ niệm ngày Giải phóng miền Nam 30/4. | `Web Front-end` `Interactive UI` | [Xem mã nguồn](https://github.com/TonyDuongg/Mien_Nam_30_4) |
-| **⚡ Backend Service Engine** | Thiết kế kiến trúc dịch vụ backend với API RESTful, bảo mật xác thực và xử lý nghiệp vụ với cơ sở dữ liệu quan hệ. | `Java` `Spring Boot` `MySQL` `Postman` | [Xem profile](https://github.com/TonyDuongg) |
-| **☁️ Cloud & Containerized App** | Triển khai ứng dụng với Docker containerization và tích hợp dịch vụ lưu trữ đám mây AWS. | `Docker` `AWS` `Git` `CI/CD` | [Xem profile](https://github.com/TonyDuongg) |
+
+<sub>🔒 Private: mã nguồn riêng tư, có thể demo hoặc chia sẻ khi được yêu cầu.</sub>
 
 ---
 
