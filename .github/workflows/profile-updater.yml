@@ -18,10 +18,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.10"
 
@@ -38,9 +38,11 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/snake-tonyd-dark.svg?color_snake=#ffcd38&color_dots=#3a0d10,#6b2416,#a3471c,#e08a2a,#ffcd38
+            dist/snake-tonyd-light.svg?color_snake=#2a0709&color_dots=#efe6d6,#f5d27a,#e0a43a,#a3471c,#5c1a16
 
       - name: Deploy SVGs to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist

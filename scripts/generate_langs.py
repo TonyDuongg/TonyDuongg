@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate a beautiful, dark-slate themed Top Languages SVG card
+Generate the Top Languages SVG card, in the colours of the TONYD wordmark,
 using the GitHub GraphQL API with private repository support (when token is provided)
 or fallback to public REST API.
 """
@@ -204,42 +204,39 @@ def generate_svg(languages_data, output_path="dist/top-langs.svg"):
             
         list_items.append(f'''
     <g transform="translate({x}, {y})">
-      <circle cx="6" cy="6" r="5" fill="{item['color']}" />
+      <rect x="1" y="1" width="10" height="10" fill="{item['color']}" />
       <text x="18" y="10" class="lang-label">{display_name}</text>
       <text x="{col_width - 15}" y="10" text-anchor="end" class="lang-pct">{pct_str}</text>
     </g>''')
 
-    svg_content = f'''<svg width="{card_width}" height="{card_height}" viewBox="0 0 {card_width} {card_height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most Used Languages">
+    svg_content = f'''<svg width="{card_width}" height="{card_height}" viewBox="0 0 {card_width} {card_height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Languages in my repositories">
   <style>
     .card-title {{
       font: 600 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      fill: #58a6ff;
+      fill: #ffcd38;
     }}
     .lang-label {{
       font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      fill: #c9d1d9;
+      fill: #ffcd38;
     }}
     .lang-pct {{
       font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      fill: #8b949e;
+      fill: #cfa84a;
     }}
     .card-bg {{
-      fill: #0d1117;
-      stroke: #30363d;
-      stroke-width: 1;
-      rx: 8;
+      fill: #2a0709;
     }}
   </style>
 
-  <rect class="card-bg" width="{card_width - 2}" height="{card_height - 2}" x="1" y="1" />
+  <rect class="card-bg" width="{card_width}" height="{card_height}" />
 
   <!-- Title -->
-  <text x="25" y="38" class="card-title">Most Used Languages</text>
+  <text x="25" y="38" class="card-title">Languages in my repositories</text>
 
   <!-- Progress Bar -->
   <g transform="translate(25, 55)">
     <mask id="bar-mask">
-      <rect x="0" y="0" width="{bar_total_width}" height="8" rx="4" fill="white" />
+      <rect x="0" y="0" width="{bar_total_width}" height="8" fill="white" />
     </mask>
     <g mask="url(#bar-mask)">
       {''.join(bar_rects)}
