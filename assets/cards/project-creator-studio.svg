@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" width="840" height="300" role="img" aria-label="Creator Studio: Reads public TikTok channels, ranks their videos by engagement and writes three-part short-video scripts: a 3-second hook, the body and a call to action. Script jobs run through AWS SQS, and a job that fails lands in a dead-letter queue and refunds its credits.">
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    
+  </style>
+  <rect width="840" height="300" fill="#2a0709"/>
+  <text x="32" y="44" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="start">Backend service and desktop app</text>
+  <text x="32" y="92" font-size="38" font-weight="700" fill="#ffcd38" text-anchor="start">Creator Studio</text>
+  <text x="32" y="128" font-size="14.5" font-weight="400" fill="#ffcd38" text-anchor="start">Reads public TikTok channels, ranks their videos by</text>
+  <text x="32" y="149" font-size="14.5" font-weight="400" fill="#ffcd38" text-anchor="start">engagement and writes three-part short-video scripts: a</text>
+  <text x="32" y="170" font-size="14.5" font-weight="400" fill="#ffcd38" text-anchor="start">3-second hook, the body and a call to action. Script jobs run</text>
+  <text x="32" y="191" font-size="14.5" font-weight="400" fill="#ffcd38" text-anchor="start">through AWS SQS, and a job that fails lands in a dead-letter</text>
+  <text x="32" y="212" font-size="14.5" font-weight="400" fill="#ffcd38" text-anchor="start">queue and refunds its credits.</text>
+  <rect x="32.0" y="246" width="66.9" height="26" fill="#4a1216"/>
+  <text x="42" y="263.5" font-size="12.5" font-weight="400" fill="#ffcd38" text-anchor="start">Java 21</text>
+  <rect x="104.9" y="246" width="100.9" height="26" fill="#4a1216"/>
+  <text x="114.9" y="263.5" font-size="12.5" font-weight="400" fill="#ffcd38" text-anchor="start">Spring Boot 3</text>
+  <rect x="211.8" y="246" width="90.8" height="26" fill="#4a1216"/>
+  <text x="221.8" y="263.5" font-size="12.5" font-weight="400" fill="#ffcd38" text-anchor="start">PostgreSQL</text>
+  <rect x="308.5" y="246" width="51.4" height="26" fill="#4a1216"/>
+  <text x="318.5" y="263.5" font-size="12.5" font-weight="400" fill="#ffcd38" text-anchor="start">Redis</text>
+  <rect x="365.9" y="246" width="73.2" height="26" fill="#4a1216"/>
+  <text x="375.9" y="263.5" font-size="12.5" font-weight="400" fill="#ffcd38" text-anchor="start">AWS SQS</text>
+  <text x="808" y="44" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="end">Public · v1.1.0</text>
+  <text x="500" y="66" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="start">One script request</text>
+  <rect x="500" y="80" width="308" height="26" fill="#3a0d10"/>
+  <text x="512" y="97.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Channel ingest</text>
+  <text x="796" y="97.5" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="end">RapidAPI</text>
+  <rect x="500" y="110" width="308" height="26" fill="#3a0d10"/>
+  <text x="512" y="127.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Raw payload</text>
+  <text x="796" y="127.5" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="end">Amazon S3</text>
+  <rect x="500" y="140" width="308" height="26" fill="#3a0d10"/>
+  <text x="512" y="157.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Video metrics</text>
+  <text x="796" y="157.5" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="end">PostgreSQL</text>
+  <rect x="500" y="170" width="308" height="26" fill="#3a0d10"/>
+  <text x="512" y="187.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Script job</text>
+  <text x="796" y="187.5" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="end">AWS SQS</text>
+  <rect x="500" y="200" width="308" height="26" fill="#3a0d10"/>
+  <text x="512" y="217.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Worker</text>
+  <text x="796" y="217.5" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="end">Gemini or Bedrock</text>
+  <rect x="500" y="230" width="308" height="26" fill="#3a0d10"/>
+  <text x="512" y="247.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Hook, body, CTA</text>
+  <text x="796" y="247.5" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="end">saved</text>
+  <rect x="500" y="260" width="308" height="26" fill="#3a0d10"/>
+  <text x="512" y="277.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Failed job</text>
+  <text x="796" y="277.5" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="end">DLQ, credits back</text>
+</svg>
