@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 52" width="200" height="52" role="img" aria-label="Portfolio">
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    
+  </style>
+  <rect width="200" height="52" fill="#17181b"/>
+  <rect width="200" height="52" fill="#8fbf9f"/>
+  <text x="22" y="33" font-size="17" font-weight="700" fill="#17181b" text-anchor="start">Portfolio</text>
+  <path d="M162 33 l12 -12 M166 21 h8 v8" stroke="#17181b" stroke-width="2.2" fill="none" stroke-linecap="square"/>
+</svg>

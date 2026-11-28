@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 250" width="412" height="250" role="img" aria-label="AppFinance: Reconciliation across shops for Shopee and TikTok Shop sellers: OAuth tokens stored with AES-256-GCM, order sync every 15 minutes, payouts and profit and loss per shop.">
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    
+  </style>
+  <rect width="412" height="250" fill="#17181b"/>
+  <text x="28" y="40" font-size="13" font-weight="400" fill="#a2a5a9" text-anchor="start">Finance platform · in production</text>
+  <text x="384" y="40" font-size="13" font-weight="400" fill="#a2a5a9" text-anchor="end">Private</text>
+  <text x="28" y="80" font-size="26" font-weight="700" fill="#e8e6e1" text-anchor="start">AppFinance</text>
+  <text x="28" y="112" font-size="14" font-weight="400" fill="#e8e6e1" text-anchor="start">Reconciliation across shops for Shopee and TikTok</text>
+  <text x="28" y="132" font-size="14" font-weight="400" fill="#e8e6e1" text-anchor="start">Shop sellers: OAuth tokens stored with</text>
+  <text x="28" y="152" font-size="14" font-weight="400" fill="#e8e6e1" text-anchor="start">AES-256-GCM, order sync every 15 minutes,</text>
+  <text x="28" y="172" font-size="14" font-weight="400" fill="#e8e6e1" text-anchor="start">payouts and profit and loss per shop.</text>
+  <rect x="28.0" y="200" width="66.9" height="26" fill="#272a2f"/>
+  <text x="38" y="217.5" font-size="12.5" font-weight="400" fill="#e8e6e1" text-anchor="start">Java 21</text>
+  <rect x="100.9" y="200" width="100.9" height="26" fill="#272a2f"/>
+  <text x="110.9" y="217.5" font-size="12.5" font-weight="400" fill="#e8e6e1" text-anchor="start">Spring Boot 4</text>
+  <rect x="207.8" y="200" width="73.5" height="26" fill="#272a2f"/>
+  <text x="217.8" y="217.5" font-size="12.5" font-weight="400" fill="#e8e6e1" text-anchor="start">React 19</text>
+  <rect x="287.2" y="200" width="90.8" height="26" fill="#272a2f"/>
+  <text x="297.2" y="217.5" font-size="12.5" font-weight="400" fill="#e8e6e1" text-anchor="start">PostgreSQL</text>
+</svg>

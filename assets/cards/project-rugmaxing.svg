@@ -3,24 +3,24 @@
     text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
     
   </style>
-  <rect width="412" height="250" fill="#2a0709"/>
-  <text x="28" y="40" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="start">Telegram bot and web studio</text>
-  <text x="384" y="40" font-size="13" font-weight="400" fill="#cfa84a" text-anchor="end">Private</text>
-  <text x="28" y="80" font-size="26" font-weight="700" fill="#ffcd38" text-anchor="start">RugMaxing Studio</text>
-  <text x="28" y="112" font-size="14" font-weight="400" fill="#ffcd38" text-anchor="start">Design rugs with AI from Telegram or the web.</text>
-  <text x="28" y="132" font-size="14" font-weight="400" fill="#ffcd38" text-anchor="start">HMAC login, quota ledger with idempotency, SePay</text>
-  <text x="28" y="152" font-size="14" font-weight="400" fill="#ffcd38" text-anchor="start">payments by webhook, uploads to Cloudflare R2,</text>
-  <text x="28" y="172" font-size="14" font-weight="400" fill="#ffcd38" text-anchor="start">image pipeline in n8n.</text>
-  <rect x="28.0" y="200" width="64.6" height="26" fill="#4a1216"/>
-  <text x="38" y="217.5" font-size="12.5" font-weight="400" fill="#ffcd38" text-anchor="start">Node.js</text>
-  <rect x="98.6" y="200" width="67.5" height="26" fill="#4a1216"/>
-  <text x="108.6" y="217.5" font-size="12.5" font-weight="400" fill="#ffcd38" text-anchor="start">Express</text>
-  <rect x="172.1" y="200" width="54.2" height="26" fill="#4a1216"/>
-  <text x="182.1" y="217.5" font-size="12.5" font-weight="400" fill="#ffcd38" text-anchor="start">React</text>
-  <rect x="232.4" y="200" width="60.2" height="26" fill="#4a1216"/>
-  <text x="242.4" y="217.5" font-size="12.5" font-weight="400" fill="#ffcd38" text-anchor="start">SQLite</text>
-  <rect x="298.6" y="200" width="35.5" height="26" fill="#4a1216"/>
-  <text x="308.6" y="217.5" font-size="12.5" font-weight="400" fill="#ffcd38" text-anchor="start">R2</text>
-  <rect x="340.1" y="200" width="41.0" height="26" fill="#4a1216"/>
-  <text x="350.1" y="217.5" font-size="12.5" font-weight="400" fill="#ffcd38" text-anchor="start">n8n</text>
+  <rect width="412" height="250" fill="#f7f6f3"/>
+  <text x="28" y="40" font-size="13" font-weight="400" fill="#5c6166" text-anchor="start">Telegram bot and web studio</text>
+  <text x="384" y="40" font-size="13" font-weight="400" fill="#5c6166" text-anchor="end">Private</text>
+  <text x="28" y="80" font-size="26" font-weight="700" fill="#1f2328" text-anchor="start">RugMaxing Studio</text>
+  <text x="28" y="112" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">Design rugs with AI from Telegram or the web.</text>
+  <text x="28" y="132" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">HMAC login, quota ledger with idempotency, SePay</text>
+  <text x="28" y="152" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">payments by webhook, uploads to Cloudflare R2,</text>
+  <text x="28" y="172" font-size="14" font-weight="400" fill="#1f2328" text-anchor="start">image pipeline in n8n.</text>
+  <rect x="28.0" y="200" width="64.6" height="26" fill="#e7e4dd"/>
+  <text x="38" y="217.5" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start">Node.js</text>
+  <rect x="98.6" y="200" width="67.5" height="26" fill="#e7e4dd"/>
+  <text x="108.6" y="217.5" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start">Express</text>
+  <rect x="172.1" y="200" width="54.2" height="26" fill="#e7e4dd"/>
+  <text x="182.1" y="217.5" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start">React</text>
+  <rect x="232.4" y="200" width="60.2" height="26" fill="#e7e4dd"/>
+  <text x="242.4" y="217.5" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start">SQLite</text>
+  <rect x="298.6" y="200" width="35.5" height="26" fill="#e7e4dd"/>
+  <text x="308.6" y="217.5" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start">R2</text>
+  <rect x="340.1" y="200" width="41.0" height="26" fill="#e7e4dd"/>
+  <text x="350.1" y="217.5" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start">n8n</text>
 </svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 250" width="412" height="250" role="img" aria-label="How I work: Automate everything, optimize bottlenecks, eliminate single points of failure.">
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    
+  </style>
+  <rect width="412" height="250" fill="#17181b"/>
+  <text x="28" y="46" font-size="22" font-weight="700" fill="#e8e6e1" text-anchor="start">How I work</text>
+  <rect x="28" y="70" width="4" height="70" fill="#8fbf9f"/>
+  <text x="46" y="92" font-size="18" font-weight="400" fill="#e8e6e1" text-anchor="start">Automate everything, optimize</text>
+  <text x="46" y="117" font-size="18" font-weight="400" fill="#e8e6e1" text-anchor="start">bottlenecks, eliminate single points of</text>
+  <text x="46" y="142" font-size="18" font-weight="400" fill="#e8e6e1" text-anchor="start">failure.</text>
+  <text x="28" y="200" font-size="14" font-weight="400" fill="#a2a5a9" text-anchor="start">Based in Ho Chi Minh City, UTC+7.</text>
+</svg>
