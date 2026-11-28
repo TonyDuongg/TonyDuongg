@@ -3,73 +3,73 @@
     text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
     
   </style>
-  <rect width="840" height="370" fill="#2a0709"/>
-  <text x="32" y="50" font-size="14" font-weight="400" fill="#cfa84a" text-anchor="start">Languages</text>
-  <rect x="190.0" y="32" width="48.7" height="26" fill="#ffcd38"/>
-  <text x="200" y="49.5" font-size="13" font-weight="600" fill="#2a0709" text-anchor="start">Java</text>
-  <rect x="244.7" y="32" width="88.3" height="26" fill="#4a1216"/>
-  <text x="254.7" y="49.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">TypeScript</text>
-  <rect x="339.0" y="32" width="88.3" height="26" fill="#4a1216"/>
-  <text x="349.0" y="49.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">JavaScript</text>
-  <rect x="433.2" y="32" width="62.5" height="26" fill="#4a1216"/>
-  <text x="443.2" y="49.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Python</text>
-  <text x="32" y="90" font-size="14" font-weight="400" fill="#cfa84a" text-anchor="start">Backend</text>
-  <rect x="190.0" y="72" width="92.2" height="26" fill="#ffcd38"/>
-  <text x="200" y="89.5" font-size="13" font-weight="600" fill="#2a0709" text-anchor="start">Spring Boot</text>
-  <rect x="288.1" y="72" width="66.4" height="26" fill="#4a1216"/>
-  <text x="298.1" y="89.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Node.js</text>
-  <rect x="360.6" y="72" width="69.4" height="26" fill="#4a1216"/>
-  <text x="370.6" y="89.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Express</text>
-  <rect x="436.0" y="72" width="83.0" height="26" fill="#4a1216"/>
-  <text x="446.0" y="89.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">REST APIs</text>
-  <text x="32" y="130" font-size="14" font-weight="400" fill="#cfa84a" text-anchor="start">Data</text>
-  <rect x="190.0" y="112" width="93.6" height="26" fill="#ffcd38"/>
-  <text x="200" y="129.5" font-size="13" font-weight="600" fill="#2a0709" text-anchor="start">PostgreSQL</text>
-  <rect x="289.6" y="112" width="52.6" height="26" fill="#4a1216"/>
-  <text x="299.6" y="129.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Redis</text>
-  <rect x="348.2" y="112" width="90.6" height="26" fill="#4a1216"/>
-  <text x="358.2" y="129.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">SQL Server</text>
-  <rect x="444.8" y="112" width="62.3" height="26" fill="#4a1216"/>
-  <text x="454.8" y="129.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">MySQL</text>
-  <rect x="513.1" y="112" width="61.9" height="26" fill="#4a1216"/>
-  <text x="523.1" y="129.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">SQLite</text>
-  <text x="32" y="170" font-size="14" font-weight="400" fill="#cfa84a" text-anchor="start">Cloud, delivery</text>
-  <rect x="190.0" y="152" width="75.4" height="26" fill="#ffcd38"/>
-  <text x="200" y="169.5" font-size="13" font-weight="600" fill="#2a0709" text-anchor="start">AWS SQS</text>
-  <rect x="271.4" y="152" width="67.3" height="26" fill="#4a1216"/>
-  <text x="281.4" y="169.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">AWS S3</text>
-  <rect x="344.7" y="152" width="62.5" height="26" fill="#4a1216"/>
-  <text x="354.7" y="169.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Docker</text>
-  <rect x="413.2" y="152" width="67.7" height="26" fill="#4a1216"/>
-  <text x="423.2" y="169.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Railway</text>
-  <rect x="486.9" y="152" width="104.1" height="26" fill="#4a1216"/>
-  <text x="496.9" y="169.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Cloudflare R2</text>
-  <rect x="597.0" y="152" width="111.0" height="26" fill="#4a1216"/>
-  <text x="607.0" y="169.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">GitHub Actions</text>
-  <text x="32" y="210" font-size="14" font-weight="400" fill="#cfa84a" text-anchor="start">AI</text>
-  <rect x="190.0" y="192" width="60.8" height="26" fill="#4a1216"/>
-  <text x="200" y="209.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Gemini</text>
-  <rect x="256.8" y="192" width="100.6" height="26" fill="#4a1216"/>
-  <text x="266.8" y="209.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">AWS Bedrock</text>
-  <rect x="363.4" y="192" width="47.3" height="26" fill="#4a1216"/>
-  <text x="373.4" y="209.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">MCP</text>
-  <text x="32" y="250" font-size="14" font-weight="400" fill="#cfa84a" text-anchor="start">Frontend</text>
-  <rect x="190.0" y="232" width="55.6" height="26" fill="#4a1216"/>
-  <text x="200" y="249.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">React</text>
-  <rect x="251.6" y="232" width="45.7" height="26" fill="#4a1216"/>
-  <text x="261.6" y="249.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Vite</text>
-  <rect x="303.4" y="232" width="99.7" height="26" fill="#4a1216"/>
-  <text x="313.4" y="249.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Tailwind CSS</text>
-  <text x="32" y="290" font-size="14" font-weight="400" fill="#cfa84a" text-anchor="start">Tools</text>
-  <rect x="190.0" y="272" width="38.8" height="26" fill="#4a1216"/>
-  <text x="200" y="289.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Git</text>
-  <rect x="234.8" y="272" width="73.7" height="26" fill="#4a1216"/>
-  <text x="244.8" y="289.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Postman</text>
-  <rect x="314.5" y="272" width="73.7" height="26" fill="#4a1216"/>
-  <text x="324.5" y="289.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Swagger</text>
-  <text x="32" y="330" font-size="14" font-weight="400" fill="#cfa84a" text-anchor="start">Learning next</text>
-  <rect x="190.0" y="312" width="130.9" height="26" fill="#4a1216"/>
-  <text x="200" y="329.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">AWS architecture</text>
-  <rect x="326.9" y="312" width="66.4" height="26" fill="#4a1216"/>
-  <text x="336.9" y="329.5" font-size="13" font-weight="400" fill="#ffcd38" text-anchor="start">Next.js</text>
+  <rect width="840" height="370" fill="#f7f6f3"/>
+  <text x="32" y="50" font-size="14" font-weight="400" fill="#5c6166" text-anchor="start">Languages</text>
+  <rect x="190.0" y="32" width="48.7" height="26" fill="#3f6b4f"/>
+  <text x="200" y="49.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">Java</text>
+  <rect x="244.7" y="32" width="88.3" height="26" fill="#e7e4dd"/>
+  <text x="254.7" y="49.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">TypeScript</text>
+  <rect x="339.0" y="32" width="88.3" height="26" fill="#e7e4dd"/>
+  <text x="349.0" y="49.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">JavaScript</text>
+  <rect x="433.2" y="32" width="62.5" height="26" fill="#e7e4dd"/>
+  <text x="443.2" y="49.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Python</text>
+  <text x="32" y="90" font-size="14" font-weight="400" fill="#5c6166" text-anchor="start">Backend</text>
+  <rect x="190.0" y="72" width="92.2" height="26" fill="#3f6b4f"/>
+  <text x="200" y="89.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">Spring Boot</text>
+  <rect x="288.1" y="72" width="66.4" height="26" fill="#e7e4dd"/>
+  <text x="298.1" y="89.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Node.js</text>
+  <rect x="360.6" y="72" width="69.4" height="26" fill="#e7e4dd"/>
+  <text x="370.6" y="89.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Express</text>
+  <rect x="436.0" y="72" width="83.0" height="26" fill="#e7e4dd"/>
+  <text x="446.0" y="89.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">REST APIs</text>
+  <text x="32" y="130" font-size="14" font-weight="400" fill="#5c6166" text-anchor="start">Data</text>
+  <rect x="190.0" y="112" width="93.6" height="26" fill="#3f6b4f"/>
+  <text x="200" y="129.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">PostgreSQL</text>
+  <rect x="289.6" y="112" width="52.6" height="26" fill="#e7e4dd"/>
+  <text x="299.6" y="129.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Redis</text>
+  <rect x="348.2" y="112" width="90.6" height="26" fill="#e7e4dd"/>
+  <text x="358.2" y="129.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">SQL Server</text>
+  <rect x="444.8" y="112" width="62.3" height="26" fill="#e7e4dd"/>
+  <text x="454.8" y="129.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">MySQL</text>
+  <rect x="513.1" y="112" width="61.9" height="26" fill="#e7e4dd"/>
+  <text x="523.1" y="129.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">SQLite</text>
+  <text x="32" y="170" font-size="14" font-weight="400" fill="#5c6166" text-anchor="start">Cloud, delivery</text>
+  <rect x="190.0" y="152" width="75.4" height="26" fill="#3f6b4f"/>
+  <text x="200" y="169.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">AWS SQS</text>
+  <rect x="271.4" y="152" width="67.3" height="26" fill="#e7e4dd"/>
+  <text x="281.4" y="169.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">AWS S3</text>
+  <rect x="344.7" y="152" width="62.5" height="26" fill="#e7e4dd"/>
+  <text x="354.7" y="169.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Docker</text>
+  <rect x="413.2" y="152" width="67.7" height="26" fill="#e7e4dd"/>
+  <text x="423.2" y="169.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Railway</text>
+  <rect x="486.9" y="152" width="104.1" height="26" fill="#e7e4dd"/>
+  <text x="496.9" y="169.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Cloudflare R2</text>
+  <rect x="597.0" y="152" width="111.0" height="26" fill="#e7e4dd"/>
+  <text x="607.0" y="169.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">GitHub Actions</text>
+  <text x="32" y="210" font-size="14" font-weight="400" fill="#5c6166" text-anchor="start">AI</text>
+  <rect x="190.0" y="192" width="60.8" height="26" fill="#e7e4dd"/>
+  <text x="200" y="209.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Gemini</text>
+  <rect x="256.8" y="192" width="100.6" height="26" fill="#e7e4dd"/>
+  <text x="266.8" y="209.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">AWS Bedrock</text>
+  <rect x="363.4" y="192" width="47.3" height="26" fill="#e7e4dd"/>
+  <text x="373.4" y="209.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">MCP</text>
+  <text x="32" y="250" font-size="14" font-weight="400" fill="#5c6166" text-anchor="start">Frontend</text>
+  <rect x="190.0" y="232" width="55.6" height="26" fill="#e7e4dd"/>
+  <text x="200" y="249.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">React</text>
+  <rect x="251.6" y="232" width="45.7" height="26" fill="#e7e4dd"/>
+  <text x="261.6" y="249.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Vite</text>
+  <rect x="303.4" y="232" width="99.7" height="26" fill="#e7e4dd"/>
+  <text x="313.4" y="249.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Tailwind CSS</text>
+  <text x="32" y="290" font-size="14" font-weight="400" fill="#5c6166" text-anchor="start">Tools</text>
+  <rect x="190.0" y="272" width="38.8" height="26" fill="#e7e4dd"/>
+  <text x="200" y="289.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Git</text>
+  <rect x="234.8" y="272" width="73.7" height="26" fill="#e7e4dd"/>
+  <text x="244.8" y="289.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Postman</text>
+  <rect x="314.5" y="272" width="73.7" height="26" fill="#e7e4dd"/>
+  <text x="324.5" y="289.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Swagger</text>
+  <text x="32" y="330" font-size="14" font-weight="400" fill="#5c6166" text-anchor="start">Learning next</text>
+  <rect x="190.0" y="312" width="130.9" height="26" fill="#e7e4dd"/>
+  <text x="200" y="329.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">AWS architecture</text>
+  <rect x="326.9" y="312" width="66.4" height="26" fill="#e7e4dd"/>
+  <text x="336.9" y="329.5" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Next.js</text>
 </svg>

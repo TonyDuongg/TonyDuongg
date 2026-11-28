@@ -13,11 +13,14 @@ import os
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "assets", "cards")
 
-BG = "#2a0709"       # oxblood: the lit room of the avatar
-SURFACE = "#3a0d10"
-SURFACE_2 = "#4a1216"
-INK = "#ffcd38"      # yellow: the TONYD letters
-MUTED = "#cfa84a"
+# Same quiet palette as the portfolio: ivory paper, charcoal ink, moss green.
+BG = "#f7f6f3"
+SURFACE = "#efede8"
+SURFACE_2 = "#e7e4dd"
+INK = "#1f2328"
+MUTED = "#5c6166"
+ACCENT = "#3f6b4f"
+ACCENT_INK = "#ffffff"
 FONT = "'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
 
 FULL = 840
@@ -90,8 +93,8 @@ def chips(x, y, items, max_width, size=12.5, core=()):
         if cursor + w > x + max_width:
             break
         filled = item in core
-        parts.append(f'  <rect x="{cursor:.1f}" y="{y}" width="{w:.1f}" height="26" fill="{INK if filled else SURFACE_2}"/>')
-        parts.append(t(round(cursor + 10, 1), y + 17.5, item, size, BG if filled else INK, 600 if filled else 400))
+        parts.append(f'  <rect x="{cursor:.1f}" y="{y}" width="{w:.1f}" height="26" fill="{ACCENT if filled else SURFACE_2}"/>')
+        parts.append(t(round(cursor + 10, 1), y + 17.5, item, size, ACCENT_INK if filled else INK, 600 if filled else 400))
         cursor += w + 6
     return "\n".join(parts)
 
@@ -159,10 +162,10 @@ def header():
 def button(name, label):
     w, h = 200, 52
     body = "\n".join([
-        f'  <rect width="{w}" height="{h}" fill="{INK}"/>',
-        t(22, 33, label, 17, BG, 700),
+        f'  <rect width="{w}" height="{h}" fill="{ACCENT}"/>',
+        t(22, 33, label, 17, ACCENT_INK, 700),
         # small arrow, drawn so it does not depend on a font glyph
-        f'  <path d="M{w - 38} {h - 19} l12 -12 M{w - 34} {h - 31} h8 v8" stroke="{BG}" stroke-width="2.2" fill="none" stroke-linecap="square"/>',
+        f'  <path d="M{w - 38} {h - 19} l12 -12 M{w - 34} {h - 31} h8 v8" stroke="{ACCENT_INK}" stroke-width="2.2" fill="none" stroke-linecap="square"/>',
     ])
     write(f"link-{name}.svg", svg(w, h, body, label))
 
@@ -190,7 +193,7 @@ def principles_card():
     quote = "Automate everything, optimize bottlenecks, eliminate single points of failure."
     parts = [
         t(28, 46, "How I work", 22, INK, 700),
-        f'  <rect x="28" y="70" width="4" height="70" fill="{INK}"/>',
+        f'  <rect x="28" y="70" width="4" height="70" fill="{ACCENT}"/>',
         paragraph(46, 92, quote, 18, HALF - 46 - 28, 25, 3),
         paragraph(28, 200, "Based in Ho Chi Minh City, UTC+7.", 14, HALF - 56, 20, 1, MUTED),
     ]

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate the Top Languages SVG card, in the colours of the TONYD wordmark,
+Generate the Top Languages SVG card, in the profile's ivory and charcoal palette,
 using the GitHub GraphQL API with private repository support (when token is provided)
 or fallback to public REST API.
 """
@@ -213,18 +213,18 @@ def generate_svg(languages_data, output_path="dist/top-langs.svg"):
   <style>
     .card-title {{
       font: 600 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      fill: #ffcd38;
+      fill: #1f2328;
     }}
     .lang-label {{
       font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      fill: #ffcd38;
+      fill: #1f2328;
     }}
     .lang-pct {{
       font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      fill: #cfa84a;
+      fill: #5c6166;
     }}
     .card-bg {{
-      fill: #2a0709;
+      fill: #f7f6f3;
     }}
   </style>
 

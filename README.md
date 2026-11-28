@@ -44,7 +44,7 @@
 ### Activity
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=TonyDuongg&show_icons=true&include_all_commits=true&bg_color=2a0709&title_color=ffcd38&text_color=ffcd38&icon_color=ffcd38&ring_color=ffcd38&hide_border=true&border_radius=0&disable_animations=true" width="49%" align="top" alt="GitHub statistics for TonyDuongg" />
+  <img src="https://github-stats-extended.vercel.app/api?username=TonyDuongg&show_icons=true&include_all_commits=true&bg_color=f7f6f3&title_color=1f2328&text_color=1f2328&icon_color=3f6b4f&ring_color=3f6b4f&hide_border=true&border_radius=0&disable_animations=true" width="49%" align="top" alt="GitHub statistics for TonyDuongg" />
   <img src="https://raw.githubusercontent.com/TonyDuongg/TonyDuongg/output/top-langs.svg" width="49%" align="top" alt="Share of each language across my repositories, public and private" />
 </p>
 

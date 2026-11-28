@@ -3,11 +3,11 @@
     text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
     
   </style>
-  <rect width="412" height="250" fill="#2a0709"/>
-  <text x="28" y="46" font-size="22" font-weight="700" fill="#ffcd38" text-anchor="start">How I work</text>
-  <rect x="28" y="70" width="4" height="70" fill="#ffcd38"/>
-  <text x="46" y="92" font-size="18" font-weight="400" fill="#ffcd38" text-anchor="start">Automate everything, optimize</text>
-  <text x="46" y="117" font-size="18" font-weight="400" fill="#ffcd38" text-anchor="start">bottlenecks, eliminate single points of</text>
-  <text x="46" y="142" font-size="18" font-weight="400" fill="#ffcd38" text-anchor="start">failure.</text>
-  <text x="28" y="200" font-size="14" font-weight="400" fill="#cfa84a" text-anchor="start">Based in Ho Chi Minh City, UTC+7.</text>
+  <rect width="412" height="250" fill="#f7f6f3"/>
+  <text x="28" y="46" font-size="22" font-weight="700" fill="#1f2328" text-anchor="start">How I work</text>
+  <rect x="28" y="70" width="4" height="70" fill="#3f6b4f"/>
+  <text x="46" y="92" font-size="18" font-weight="400" fill="#1f2328" text-anchor="start">Automate everything, optimize</text>
+  <text x="46" y="117" font-size="18" font-weight="400" fill="#1f2328" text-anchor="start">bottlenecks, eliminate single points of</text>
+  <text x="46" y="142" font-size="18" font-weight="400" fill="#1f2328" text-anchor="start">failure.</text>
+  <text x="28" y="200" font-size="14" font-weight="400" fill="#5c6166" text-anchor="start">Based in Ho Chi Minh City, UTC+7.</text>
 </svg>

@@ -38,8 +38,8 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/snake-tonyd-dark.svg?color_snake=#ffcd38&color_dots=#3a0d10,#6b2416,#a3471c,#e08a2a,#ffcd38
-            dist/snake-tonyd-light.svg?color_snake=#2a0709&color_dots=#efe6d6,#f5d27a,#e0a43a,#a3471c,#5c1a16
+            dist/snake-tonyd-dark.svg?color_snake=#8fbf9f&color_dots=#1c2026,#1f3a2a,#2e5a3f,#47805d,#8fbf9f
+            dist/snake-tonyd-light.svg?color_snake=#1f2328&color_dots=#ebe9e4,#cfdcd2,#9fbea8,#6f9a7c,#3f6b4f
 
       - name: Deploy SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v5
