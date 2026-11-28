@@ -4,6 +4,8 @@ Build the SVG cards that lay out the profile README.
 
 GitHub READMEs cannot use CSS, so each block of the layout (header, link
 buttons, project cards, stack) is drawn as an SVG and placed with <img>.
+Every card is drawn twice: a light set in assets/cards/ and a dark set in
+assets/cards/dark/. The README picks one with <picture> and prefers-color-scheme.
 Edit the content below and run:  python scripts/build_readme_cards.py
 """
 
@@ -11,16 +13,22 @@ import base64
 import html
 import os
 
-OUT = os.path.join(os.path.dirname(__file__), "..", "assets", "cards")
+CARDS = os.path.join(os.path.dirname(__file__), "..", "assets", "cards")
 
-# Same quiet palette as the portfolio: ivory paper, charcoal ink, moss green.
-BG = "#f7f6f3"
-SURFACE = "#efede8"
-SURFACE_2 = "#e7e4dd"
-INK = "#1f2328"
-MUTED = "#5c6166"
-ACCENT = "#3f6b4f"
-ACCENT_INK = "#ffffff"
+# Same quiet palettes as the portfolio: ivory paper with moss green, and its
+# soft charcoal dark theme.
+PALETTES = {
+    "light": {"OUT": CARDS, "BG": "#f7f6f3", "SURFACE": "#efede8", "SURFACE_2": "#e7e4dd",
+              "INK": "#1f2328", "MUTED": "#5c6166", "ACCENT": "#3f6b4f", "ACCENT_INK": "#ffffff"},
+    "dark": {"OUT": os.path.join(CARDS, "dark"), "BG": "#17181b", "SURFACE": "#1f2125", "SURFACE_2": "#272a2f",
+             "INK": "#e8e6e1", "MUTED": "#a2a5a9", "ACCENT": "#8fbf9f", "ACCENT_INK": "#17181b"},
+}
+OUT = BG = SURFACE = SURFACE_2 = INK = MUTED = ACCENT = ACCENT_INK = None
+
+
+def use(palette):
+    """Point the drawing helpers at one palette and its output folder."""
+    globals().update(PALETTES[palette])
 FONT = "'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
 
 FULL = 840
@@ -76,12 +84,14 @@ def svg(width, height, body, label, extra_style=""):
 """
 
 
-def t(x, y, text, size=14, fill=INK, weight=400, anchor="start"):
+def t(x, y, text, size=14, fill=None, weight=400, anchor="start"):
+    fill = fill or INK
     return (f'  <text x="{x}" y="{y}" font-size="{size}" font-weight="{weight}" '
             f'fill="{fill}" text-anchor="{anchor}">{esc(text)}</text>')
 
 
-def paragraph(x, y, text, size, width, line_height, max_lines, fill=INK):
+def paragraph(x, y, text, size, width, line_height, max_lines, fill=None):
+    fill = fill or INK
     lines = wrap(text, size, width)[:max_lines]
     return "\n".join(t(x, y + i * line_height, line, size, fill) for i, line in enumerate(lines))
 
@@ -103,7 +113,7 @@ def write(name, content):
     os.makedirs(OUT, exist_ok=True)
     with open(os.path.join(OUT, name), "w", encoding="utf-8", newline="\n") as f:
         f.write(content)
-    print(f"wrote assets/cards/{name}")
+    print(f"wrote {os.path.relpath(os.path.join(OUT, name), os.path.join(CARDS, '..', '..'))}")
 
 
 # ---------------------------------------------------------------- header
@@ -301,7 +311,7 @@ def stack_card():
     write("stack.svg", svg(FULL, h, "\n".join(parts), "Stack: " + "; ".join(f"{l}: {', '.join(v)}" for l, v in STACK)))
 
 
-if __name__ == "__main__":
+def build():
     header()
     for name, label in [("portfolio", "Portfolio"), ("linkedin", "LinkedIn"), ("email", "Email"), ("facebook", "Facebook")]:
         button(name, label)
@@ -311,3 +321,9 @@ if __name__ == "__main__":
     for project in PROJECTS:
         project_card(project)
     stack_card()
+
+
+if __name__ == "__main__":
+    for palette in PALETTES:
+        use(palette)
+        build()

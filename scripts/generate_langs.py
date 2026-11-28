@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate the Top Languages SVG card, in the profile's ivory and charcoal palette,
+Generate the Top Languages SVG card, in a light (ivory) and a dark (charcoal) version,
 using the GitHub GraphQL API with private repository support (when token is provided)
 or fallback to public REST API.
 """
@@ -148,7 +148,13 @@ def fetch_languages_public(username="TonyDuongg"):
         
     return languages_data
 
-def generate_svg(languages_data, output_path="dist/top-langs.svg"):
+# Same palettes as the README cards: title and labels, percentages, background.
+THEMES = {
+    "dist/top-langs.svg": {"ink": "#1f2328", "muted": "#5c6166", "bg": "#f7f6f3"},
+    "dist/top-langs-dark.svg": {"ink": "#e8e6e1", "muted": "#a2a5a9", "bg": "#17181b"},
+}
+
+def generate_svg(languages_data, output_path="dist/top-langs.svg", theme=THEMES["dist/top-langs.svg"]):
     # Sort languages by size descending
     sorted_langs = sorted(languages_data.items(), key=lambda x: x[1]["size"], reverse=True)
     
@@ -213,18 +219,18 @@ def generate_svg(languages_data, output_path="dist/top-langs.svg"):
   <style>
     .card-title {{
       font: 600 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      fill: #1f2328;
+      fill: {theme["ink"]};
     }}
     .lang-label {{
       font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      fill: #1f2328;
+      fill: {theme["ink"]};
     }}
     .lang-pct {{
       font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      fill: #5c6166;
+      fill: {theme["muted"]};
     }}
     .card-bg {{
-      fill: #f7f6f3;
+      fill: {theme["bg"]};
     }}
   </style>
 
@@ -269,4 +275,5 @@ if __name__ == "__main__":
     print(f"Found {len(data)} distinct languages.")
     for lang, info in sorted(data.items(), key=lambda x: x[1]['size'], reverse=True)[:10]:
         print(f" - {lang}: {info['size']} bytes")
-    generate_svg(data)
+    for path, theme in THEMES.items():
+        generate_svg(data, path, theme)
